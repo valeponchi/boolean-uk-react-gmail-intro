@@ -1,11 +1,13 @@
+import SearchBar from "./SearchBar"
 import TopLeftMenu from "./TopLeftMenu"
-import TopRightMenu from "./TopRightMenu"
+
+import "../../styles/header.css"
 
 function Header() {
   return(
     <header className="header">
       <TopLeftMenu />
-      <TopRightMenu />
+      <SearchBar />
      </header>
   )
 }

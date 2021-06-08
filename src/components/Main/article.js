@@ -3,6 +3,7 @@ import flaticonWelcomeImage from '../../assets/images/flaticon-welcome-image.png
 import rateStarButton from '../../assets/icons/rate-star-button.png'
 import rubbishButton from '../../assets/icons/rubbish-bin-delete-button.png'
 
+import "../../styles/email-article.css"
 
 function Article() {
   return(

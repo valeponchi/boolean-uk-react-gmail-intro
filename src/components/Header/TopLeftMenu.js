@@ -1,4 +1,6 @@
-function TopLeftMenu() {
+import "../../styles/top-left-menu.css"
+
+function LeftMenu() {
   return(
     <div className="left-menu">
           <svg className="menu-icon" focusable="false" viewBox="0 0 24 24">
@@ -13,4 +15,4 @@ function TopLeftMenu() {
   )
 }
 
-export default TopLeftMenu
+export default LeftMenu

@@ -1,3 +1,5 @@
+import "../../styles/inbox-list.css"
+
 function List() {
   return(
     <ul className="inbox-list">

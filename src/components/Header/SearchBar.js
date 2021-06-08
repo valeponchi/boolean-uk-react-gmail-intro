@@ -1,4 +1,6 @@
-function TopRightMenu() {
+import "../../styles/search-bar.css"
+
+function SearchBar() {
   return(
     <div className="search">
       <input className="search-bar" placeholder="Search mail" />
@@ -6,4 +8,4 @@ function TopRightMenu() {
   )
 }
 
-export default TopRightMenu
+export default SearchBar
